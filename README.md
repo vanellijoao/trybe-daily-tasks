@@ -1,1 +1,1 @@
-# trybe-daily-tasks
+# Repositório para as aulas da Trybe! 
