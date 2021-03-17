@@ -1,1 +1,3 @@
-# Repositório para as aulas da Trybe! 
+# Repositório para os exercícios das aulas da Trybe! 
+
+Exercícios feitos por João Vanelli
