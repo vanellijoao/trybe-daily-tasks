@@ -98,7 +98,7 @@ const verifyPair = (obj, key, value) => {
     return keyArr.indexOf(key) === valueArr.indexOf(value) ? true : false
 }
 
-console.log(verifyPair(lesson3, 'turno', 'noite'));
-// Output: true,
-console.log(verifyPair(lesson3, 'materia', 'Maria Clara'));
-// Output: false
+// console.log(verifyPair(lesson3, 'turno', 'noite'));
+// // Output: true,
+// console.log(verifyPair(lesson3, 'materia', 'Maria Clara'));
+// // Output: false
