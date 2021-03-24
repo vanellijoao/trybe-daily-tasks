@@ -32,4 +32,16 @@ console.log(lesson2)
 
 // -------------------------------
 // Exercício 2
+const keyList = (obj) => {
+    return Object.keys(obj)
+}
 
+console.log(keyList(lesson1))
+
+// -------------------------------
+// Exercício 3
+const objLength = (obj) => {
+    return keyList(obj).length
+}
+
+console.log(objLength(lesson3))
