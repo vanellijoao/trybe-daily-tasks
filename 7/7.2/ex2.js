@@ -61,4 +61,44 @@ let allLessons = {}
 
 Object.assign(allLessons, {lesson1, lesson2, lesson3})
 
-console.log(allLessons)
+// console.log(allLessons)
+
+// -------------------------------
+// Exercício 6
+
+// Cria um Array com os objetos e utiliza um for in para obter todos os valores
+const studentCounter = (obj) => {
+    const arr = Object.keys(obj);
+    let count = 0
+    for (i in arr) {
+        count = count + obj[arr[i]]['numeroEstudantes']
+    }
+    return count
+} 
+
+// console.log(studentCounter(allLessons))
+
+// -------------------------------
+// Exercício 7
+
+const getValueByNumber = (obj, keyIndex) => {
+    const arr = Object.keys(obj);
+    return obj[arr[keyIndex]]
+}
+
+// console.log(getValueByNumber(lesson1, 0));
+
+// -------------------------------
+// Exercício 8
+
+const verifyPair = (obj, key, value) => {
+    const keyArr = Object.keys(obj)
+    const valueArr = Object.values(obj)
+
+    return keyArr.indexOf(key) === valueArr.indexOf(value) ? true : false
+}
+
+console.log(verifyPair(lesson3, 'turno', 'noite'));
+// Output: true,
+console.log(verifyPair(lesson3, 'materia', 'Maria Clara'));
+// Output: false
