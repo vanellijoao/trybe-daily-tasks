@@ -99,6 +99,51 @@ const verifyPair = (obj, key, value) => {
 }
 
 // console.log(verifyPair(lesson3, 'turno', 'noite'));
-// // Output: true,
 // console.log(verifyPair(lesson3, 'materia', 'Maria Clara'));
-// // Output: false
+
+// -------------------------------
+// Bônus Exercício 1
+
+const classCounter = (obj, value) => {
+    const lessonArr = Object.keys(obj)
+    let students = 0
+    for (index in lessonArr) {
+        if (obj[lessonArr[index]].materia === value) {
+            students = students + obj[lessonArr[index]].numeroEstudantes
+        }
+    }
+    return students
+}
+
+// console.log(classCounter(allLessons, 'Matemática'))
+
+// -------------------------------
+// Bônus Exercício 2
+
+const teacherReport = (obj, teacher) => {
+    const lessonArr = Object.keys(obj)
+    let report = {
+        professor: teacher,
+        aulas: [],
+    }
+    let classes = [];
+    let students = 0;
+    for (index in lessonArr) {
+        if (obj[lessonArr[index]].professor === teacher) {
+            classes.push(obj[lessonArr[index]].materia)
+            students = students + obj[lessonArr[index]].numeroEstudantes
+        }
+    }
+
+    Object.assign(report.aulas, {classes})
+    report.estudantes = students
+
+    return report
+}
+
+console.log(teacherReport(allLessons, 'Maria Clara'))
+/* {
+  professor: 'Maria Clara',
+  aulas: [ 'Matemática', 'Matemática' ],
+  estudantes: 30
+} */
