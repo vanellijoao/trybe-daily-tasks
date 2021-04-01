@@ -31,7 +31,7 @@ Trybe is a web development school that has a genuine commitment to the professio
 - [x] 3-2: _HTML & CSS - Primeiros passos em CSS_
 - [x] 3-3: _HTML & CSS - Seletores e posicionamento_
 - [x] 3-4: _HTML Semântico_
-- [x] 3-5: _[Projeto - HTML & CSS](https://leandrofcr.github.io/projects/project-1-lessons-learned/)_
+- [x] 3-5: _Projeto - HTML & CSS_
 
 ##### Bloco 4: Introdução - JavaScript
 
@@ -49,11 +49,11 @@ Trybe is a web development school that has a genuine commitment to the professio
 - [x] 5-2: _JavaScript - Trabalhando com elementos_
 - [x] 5-3: _JavaScript - Eventos_
 - [x] 5-4: _JavaScript - Web Storage_
-- [x] 5-5: _[Projeto - Arte com Pixels](https://leandrofcr.github.io/projects/project-3-pixel-art/)_
-- [x] 5-6: _[Projeto - Lista de tarefas](https://leandrofcr.github.io/projects/project-4-to-do-list/)_
-- [x] 5-7: _[(Bônus) Projeto - Meme Generator]()_
-- [x] 5-7: _[(Bônus) Projeto - Adivinhe a Cor]()_
-- [x] 5-7: _[(Bônus) Projeto - Carta Misteriosa]()_
+- [x] 5-5: _Projeto - Arte com Pixels_
+- [x] 5-6: _Projeto - Lista de tarefas_
+- [x] 5-7: _Projeto - Meme Generator_
+- [x] 5-7: _(Bônus) Projeto - Adivinhe a Cor_
+- [x] 5-7: _(Bônus) Projeto - Carta Misteriosa_
 
 
 ##### Bloco 6: Introdução - Front-end
