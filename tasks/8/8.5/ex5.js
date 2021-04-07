@@ -4,10 +4,7 @@ const myList = [1, 2, 3];
 
 // escreva swap abaixo
 
-const swap = (list) => {
-  const [a, b, c] = list;
-  return [c, b, a]
-}
+const swap = ( [ a, b, c ] )  => [c, b, a]
 
 const swappedList = swap(myList);
 
